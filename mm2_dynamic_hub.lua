@@ -1635,7 +1635,9 @@ function Hub:PerformFlick(targetWorldPos)
     end
 end
 
-function Hub:ShootMurderer()
+function Hub:ShootGun(forcedTargetPos)
+    if (os.clock() - self.Combat.LastShot) < 0.15 then return end
+
     local remote, gunTool = self:GetShootRemote()
     if not (remote and gunTool) then return end
 
@@ -1646,45 +1648,52 @@ function Hub:ShootMurderer()
     local hum = myChar:FindFirstChildOfClass("Humanoid")
     if not (myRoot and hum and hum.Health > 0) then return end
 
-    local murderer = self:GetMurderer()
-    local targetPos = nil
+    local targetPos = forcedTargetPos
+    local isSilentAimTarget = false
 
-    if murderer and murderer.Character then
-        local aimPart = self:GetAimTargetPart(murderer.Character)
-        if aimPart then
-            targetPos = self:GetPredictedAimPos(aimPart)
+    -- 1. Если включен Silent Aim и нет принудительной точки, берем позицию убийцы
+    if not targetPos and self.Config.Toggles.SilentAim then
+        local murderer = self:GetMurderer()
+        if murderer and murderer.Character then
+            local aimPart = self:GetAimTargetPart(murderer.Character)
+            if aimPart then
+                targetPos = self:GetPredictedAimPos(aimPart)
+                isSilentAimTarget = true
+            end
         end
     end
 
-    -- Если убийца не определен, стреляем по направлению курсора мыши
+    -- 2. Если Silent Aim выключен (или убийца не найден) - целимся ровно туда, куда смотрит прицел мыши игрока!
     if not targetPos then
         local mouse = lp:GetMouse()
         targetPos = mouse.Hit.Position
     end
 
-    -- Flick Shot (только если оружие уже в руках)
-    if self.Config.Toggles.FlickShot and murderer and murderer.Character and gunTool.Parent == myChar then
+    -- Flick Shot (если включен, цель - убийца, и оружие в руках)
+    if self.Config.Toggles.FlickShot and isSilentAimTarget and gunTool.Parent == myChar then
         self:PerformFlick(targetPos)
     end
 
-    -- Получаем официальный CFrame точки выстрела (GunRaycastAttachment на HumanoidRootPart)
+    -- Точка выстрела (Origin)
     local hrp = myChar:FindFirstChild("HumanoidRootPart") or myRoot
     local att = hrp:FindFirstChild("GunRaycastAttachment")
-    local originCF = (att and att.WorldCFrame) or hrp.CFrame
+    local muzzlePos = (att and att.WorldPosition) or (hrp.Position + Vector3.new(0, 1.5, 0))
 
-    -- Улучшенный AimWallbang: аккуратный прострел через стены/преграды
+    local originCF
+    -- 3. Настоящий Wallbang: снап точки выстрела в 2.5 studs перед целью (raycast идет без прохождения сквозь стены)
     if self.Config.Toggles.AimWallbang and targetPos then
-        local delta = (targetPos - hrp.Position)
-        if delta.Magnitude > 3 then
-            originCF = originCF + (delta.Unit * math.clamp(delta.Magnitude * 0.25, 2.5, 7.5))
-        end
+        local back = targetPos - myRoot.Position
+        if back.Magnitude < 0.01 then back = Vector3.new(0, 0, -1) end
+        local from = targetPos - (back.Unit * 2.5)
+        originCF = CFrame.lookAt(from, targetPos)
+    else
+        -- Обычный выстрел без Wallbang (пуля летит прямо из дула/персонажа к точке прицеливания)
+        originCF = CFrame.lookAt(muzzlePos, targetPos)
     end
 
     local targetCF = CFrame.new(targetPos)
-
     self.Combat.LastShot = os.clock()
 
-    -- Отправляем точный выстрел в цель без принудительной экипировки оружия в руки
     pcall(function()
         if remote:IsA("RemoteEvent") then
             remote:FireServer(originCF, targetCF)
@@ -1692,6 +1701,10 @@ function Hub:ShootMurderer()
             remote:InvokeServer(originCF, targetCF)
         end
     end)
+end
+
+function Hub:ShootMurderer()
+    return self:ShootGun()
 end
 
 function Hub:HookSilentAim()
@@ -1704,41 +1717,53 @@ function Hub:HookSilentAim()
         if (method == "FireServer" or method == "InvokeServer") then
             local n = tostring(self.Name):lower()
             if n == "shoot" or n == "shootevent" or n == "shootgun" or n == "fire" then
-                if Hub.Config.Toggles.SilentAim and not (checkcaller and checkcaller()) then
-                    local murderer = Hub:GetMurderer()
-                    if murderer and murderer.Character then
-                        local aimPart = Hub:GetAimTargetPart(murderer.Character)
-                        if aimPart then
-                            local args = { ... }
-                            local nArgs = select("#", ...)
-                            local aimPos = Hub:GetPredictedAimPos(aimPart)
+                if not (checkcaller and checkcaller()) then
+                    local args = { ... }
+                    local nArgs = select("#", ...)
 
-                            -- Улучшенный Wallbang: прострел через стены
-                            if Hub.Config.Toggles.AimWallbang and typeof(args[1]) == "CFrame" then
+                    if Hub.Config.Toggles.SilentAim then
+                        local murderer = Hub:GetMurderer()
+                        if murderer and murderer.Character then
+                            local aimPart = Hub:GetAimTargetPart(murderer.Character)
+                            if aimPart then
+                                local aimPos = Hub:GetPredictedAimPos(aimPart)
+
+                                -- Wallbang при перехвате нативного выстрела
+                                if Hub.Config.Toggles.AimWallbang then
+                                    local lp = Hub.Services.Players.LocalPlayer
+                                    local myRoot = lp.Character and Hub:GetRoot(lp.Character)
+                                    local back = (myRoot and (aimPos - myRoot.Position)) or Vector3.new(0, 0, -1)
+                                    if back.Magnitude < 0.01 then back = Vector3.new(0, 0, -1) end
+                                    local from = aimPos - (back.Unit * 2.5)
+                                    args[1] = CFrame.lookAt(from, aimPos)
+                                end
+
+                                if typeof(args[2]) == "CFrame" then
+                                    args[2] = CFrame.new(aimPos)
+                                else
+                                    args[2] = aimPos
+                                end
+
+                                if setnamecallmethod then setnamecallmethod(method) end
+                                return oldNC(self, table.unpack(args, 1, math.max(nArgs, 2)))
+                            end
+                        end
+                    else
+                        -- Silent Aim ВЫКЛЮЧЕН: пуля летит нормально туда, куда целился игрок
+                        if Hub.Config.Toggles.AimWallbang then
+                            local destPos = (typeof(args[2]) == "CFrame" and args[2].Position) or (typeof(args[2]) == "Vector3" and args[2])
+                            if destPos then
                                 local lp = Hub.Services.Players.LocalPlayer
                                 local myRoot = lp.Character and Hub:GetRoot(lp.Character)
-                                if myRoot then
-                                    local delta = (aimPos - myRoot.Position)
-                                    if delta.Magnitude > 3 then
-                                        args[1] = args[1] + (delta.Unit * math.clamp(delta.Magnitude * 0.25, 2.5, 7.5))
-                                    end
-                                end
+                                local back = (myRoot and (destPos - myRoot.Position)) or Vector3.new(0, 0, -1)
+                                if back.Magnitude < 0.01 then back = Vector3.new(0, 0, -1) end
+                                local from = destPos - (back.Unit * 2.5)
+                                args[1] = CFrame.lookAt(from, destPos)
                             end
-
-                            -- Перенаправляем точку прицеливания (args[2]):
-                            if typeof(args[2]) == "CFrame" then
-                                args[2] = CFrame.new(aimPos)
-                            elseif typeof(args[2]) == "Vector3" then
-                                args[2] = aimPos
-                            else
-                                args[2] = CFrame.new(aimPos)
-                            end
-
-                            if setnamecallmethod then
-                                setnamecallmethod(method)
-                            end
-                            return oldNC(self, table.unpack(args, 1, math.max(nArgs, 2)))
                         end
+                        -- args[2] не модифицируется: пуля летит строго в точку прицела мыши!
+                        if setnamecallmethod then setnamecallmethod(method) end
+                        return oldNC(self, table.unpack(args, 1, math.max(nArgs, 2)))
                     end
                 end
             end
@@ -5534,14 +5559,49 @@ function Hub:SetupWindowDragging()
     end)
 end
 
+function Hub:IsMouseOverGui()
+    if not (self.State.Gui and self.State.Gui.Parent and self.State.Gui.Enabled) then
+        return false
+    end
+    local main = self.State.Main
+    if not (main and main.Visible) then
+        return false
+    end
+    local mouse = self.Services.Players.LocalPlayer:GetMouse()
+    local mx, my = mouse.X, mouse.Y
+    local pos = main.AbsolutePosition
+    local size = main.AbsoluteSize
+    if mx >= pos.X and mx <= (pos.X + size.X) and my >= pos.Y and my <= (pos.Y + size.Y) then
+        return true
+    end
+    return false
+end
+
 function Hub:SetupKeybinds()
     self.Services.UserInputService.InputBegan:Connect(function(input, gp)
-        if not self.Config.IsListeningMenuKey and input.KeyCode == self.Config.MenuKey then
+        if self.Config.IsListeningMenuKey then return end
+        if input.KeyCode == self.Config.MenuKey then
             self:ToggleMenu()
+            return
         end
-        if not self.Config.IsListeningShootKey and self.Config.ShootKey and self.Config.ShootKey ~= Enum.KeyCode.Unknown then
+
+        if self.Config.IsListeningShootKey then return end
+
+        -- 1. Выстрел по назначенному бинду клавиши
+        if self.Config.ShootKey and self.Config.ShootKey ~= Enum.KeyCode.Unknown then
             if input.KeyCode == self.Config.ShootKey or input.UserInputType == self.Config.ShootKey then
-                self:ShootMurderer()
+                self:ShootGun()
+                return
+            end
+        end
+
+        -- 2. Выстрел по нажатию мыши (MouseButton1 / левый клик)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 then
+            if gp then return end
+            if self:IsMouseOverGui() then return end
+            local remote, gunTool = self:GetShootRemote()
+            if remote and gunTool then
+                self:ShootGun()
             end
         end
     end)
