@@ -2308,7 +2308,7 @@
         "ItemType": "Knife",
         "Rarity": "Godly",
         "Year": "2022",
-        "Value": "x2 T1 Uncommons"
+        "Value": 125
       },
       "name": "ZombieBat",
       "owners": [
@@ -5036,7 +5036,7 @@
         "ItemType": "Knife",
         "Rarity": "Rare",
         "Year": "2017",
-        "Value": 3
+        "Value": 13
       },
       "name": "MagmaK",
       "owners": [
@@ -18942,7 +18942,7 @@
         "ItemType": "Knife",
         "Rarity": "Godly",
         "Year": "2025",
-        "Value": 405
+        "Value": 410
       },
       "name": "XenoKnife",
       "owners": [
@@ -19468,7 +19468,7 @@
         "ItemType": "Knife",
         "Rarity": "Godly",
         "Season": 1,
-        "Value": "x2 T1 Rares"
+        "Value": 240
       },
       "name": "Waves_K",
       "owners": [
@@ -31796,7 +31796,7 @@
         "ItemType": "Knife",
         "Rarity": "Ancient",
         "Year": "2018",
-        "Value": 42
+        "Value": 1000000
       },
       "name": "Scythe",
       "owners": [
@@ -47271,7 +47271,7 @@
         "ItemType": "Gun",
         "Rarity": "Ancient",
         "Year": "2023",
-        "Value": 15250
+        "Value": 15000
       },
       "name": "Gingerscope",
       "owners": [
@@ -54641,7 +54641,7 @@
         "ItemType": "Knife",
         "Rarity": "Uncommon",
         "Year": "2026",
-        "Value": "x4 T1 Legendaries"
+        "Value": 1240
       },
       "name": "Blossom_K_2026",
       "owners": [
@@ -57750,7 +57750,7 @@
         "ItemType": "Knife",
         "Rarity": "Uncommon",
         "Year": "2021",
-        "Value": 5
+        "Value": "x3 T1 Uncommons"
       },
       "name": "Snowman_K_2021",
       "owners": [
@@ -57870,7 +57870,7 @@
         "ItemType": "Knife",
         "Rarity": "Uncommon",
         "Year": "2024",
-        "Value": "x4 T1 Legendaries"
+        "Value": "x3 T1 Rares"
       },
       "name": "Bones_K_2024",
       "owners": [
@@ -59231,7 +59231,7 @@
         "ItemType": "Knife",
         "Rarity": "Common",
         "Year": "2025",
-        "Value": "x3 T1 Commons"
+        "Value": 0
       },
       "name": "StickersH_K_2025",
       "owners": [
@@ -60967,7 +60967,7 @@
         "ItemType": "Knife",
         "Rarity": "Uncommon",
         "Year": "2026",
-        "Value": 5
+        "Value": 22
       },
       "name": "Starry_K_2026",
       "owners": [
@@ -63086,7 +63086,7 @@
         "ItemType": "Gun",
         "Rarity": "Rare",
         "Year": "2026",
-        "Value": "x3 T1 Rares"
+        "Value": 650
       },
       "name": "Sunset_G_2026",
       "owners": [
@@ -63192,7 +63192,7 @@
         "ItemType": "Gun",
         "Rarity": "Common",
         "Year": "2025",
-        "Value": "x3 T1 Commons"
+        "Value": 0
       },
       "name": "StickersX_G_2025",
       "owners": [
@@ -63833,7 +63833,7 @@
         "ItemType": "Gun",
         "Rarity": "Common",
         "Year": "2024",
-        "Value": "x3 T1 Commons"
+        "Value": 0
       },
       "name": "Stickers_X_G_2024",
       "owners": [
@@ -63935,7 +63935,7 @@
         "ItemType": "Gun",
         "Rarity": "Common",
         "Year": "2025",
-        "Value": "x3 T1 Commons"
+        "Value": 0
       },
       "name": "Stickers_G_2025",
       "owners": [
@@ -64847,7 +64847,7 @@
         "ItemType": "Gun",
         "Rarity": "Uncommon",
         "Year": "2026",
-        "Value": "x3 T1 Uncommons"
+        "Value": 10
       },
       "name": "Floral_G_2026",
       "owners": [
@@ -65233,7 +65233,7 @@
         "ItemType": "Gun",
         "Rarity": "Legendary",
         "Year": "2025",
-        "Value": "x2 T1 Commons"
+        "Value": "x4 T1 Legendaries"
       },
       "name": "Frozen_G_2025",
       "owners": [
@@ -70724,7 +70724,7 @@
         "ItemType": "Gun",
         "Rarity": "Rare",
         "Season": 1,
-        "Value": "x3 T1 Uncommons"
+        "Value": 10
       },
       "name": "Floral_G_2024",
       "owners": [
@@ -71066,7 +71066,7 @@
         "ItemType": "Gun",
         "Rarity": "Common",
         "Season": 1,
-        "Value": "x1 T1 Common"
+        "Value": "x2 T1 Commons"
       },
       "name": "Sandy_G_2024",
       "owners": [
@@ -72302,7 +72302,7 @@
         "ItemType": "Gun",
         "Rarity": "Rare",
         "Year": "2019",
-        "Value": "x3 T1 Uncommons"
+        "Value": 1
       },
       "name": "Monster",
       "owners": [
@@ -73353,7 +73353,7 @@
         "ItemType": "Gun",
         "Rarity": "Common",
         "Season": 1,
-        "Value": "x1 T1 Common"
+        "Value": "x3 T1 Uncommons"
       },
       "name": "Clown_G",
       "owners": [
@@ -73543,7 +73543,7 @@
         "ItemType": "Gun",
         "Rarity": "Uncommon",
         "Year": "2024",
-        "Value": "x1 T1 Common"
+        "Value": "x3 T1 Uncommons"
       },
       "name": "Clown_G_2024",
       "owners": [
@@ -79141,7 +79141,7 @@
         "ItemType": "Knife",
         "Rarity": "Rare",
         "Year": "2019",
-        "Value": 1
+        "Value": 45
       },
       "name": "Aurora_K_2019",
       "owners": [
@@ -79601,7 +79601,7 @@
         "ItemType": "Gun",
         "Rarity": "Godly",
         "Year": "2025",
-        "Value": 405
+        "Value": 410
       },
       "name": "XenoGun",
       "owners": [
