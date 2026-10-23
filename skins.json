@@ -62668,7 +62668,8 @@
         }
       },
       "meta": {
-        "PriceStatus": "unresolved_no_price"
+        "PriceStatus": "verified",
+        "Value": "TBD"
       }
     },
     "6600918074|114741314080418||": {
@@ -65682,7 +65683,8 @@
       "seen": 1787411678,
       "sig": "6600918074|91632676208966||",
       "meta": {
-        "PriceStatus": "unresolved_no_price"
+        "PriceStatus": "verified",
+        "Value": "TBD"
       }
     },
     "6769675268|73593137081664||": {
@@ -76567,7 +76569,8 @@
       "seen": 1787411678,
       "sig": "8310908064|8231066536||",
       "meta": {
-        "PriceStatus": "unresolved_no_price"
+        "PriceStatus": "verified",
+        "Value": "TBD"
       }
     },
     "8310911339|8320249073|8320260092|": {
