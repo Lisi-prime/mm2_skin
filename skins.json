@@ -18978,7 +18978,7 @@
         "ItemType": "Knife",
         "Rarity": "Godly",
         "Year": "2025",
-        "Value": 435,
+        "Value": 430,
         "PriceStatus": "verified"
       },
       "name": "XenoKnife",
@@ -47343,7 +47343,7 @@
         "ItemType": "Gun",
         "Rarity": "Ancient",
         "Year": "2023",
-        "Value": 14500,
+        "Value": 15500,
         "PriceStatus": "verified"
       },
       "name": "Gingerscope",
@@ -57841,7 +57841,7 @@
         "Rarity": "Uncommon",
         "Year": "2021",
         "PriceStatus": "verified",
-        "Value": "x2 Commons"
+        "Value": "x2 T1 Commons"
       },
       "name": "Snowman_K_2021",
       "owners": [
@@ -62668,8 +62668,8 @@
         }
       },
       "meta": {
-        "PriceStatus": "verified",
-        "Value": "TBD"
+        "PriceStatus": "unresolved_no_price",
+        "Image": "rbxthumb://type=Asset&w=150&h=150&id=99160839686845"
       }
     },
     "6600918074|114741314080418||": {
@@ -65683,8 +65683,8 @@
       "seen": 1787411678,
       "sig": "6600918074|91632676208966||",
       "meta": {
-        "PriceStatus": "verified",
-        "Value": "TBD"
+        "PriceStatus": "unresolved_no_price",
+        "Image": "rbxassetid://91632676208966"
       }
     },
     "6769675268|73593137081664||": {
@@ -76569,8 +76569,8 @@
       "seen": 1787411678,
       "sig": "8310908064|8231066536||",
       "meta": {
-        "PriceStatus": "verified",
-        "Value": "TBD"
+        "PriceStatus": "unresolved_no_price",
+        "Image": "rbxassetid://8231066536"
       }
     },
     "8310911339|8320249073|8320260092|": {
@@ -79759,7 +79759,7 @@
         "ItemType": "Gun",
         "Rarity": "Godly",
         "Year": "2025",
-        "Value": 435,
+        "Value": 430,
         "PriceStatus": "verified"
       },
       "name": "XenoGun",
