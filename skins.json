@@ -2315,7 +2315,7 @@
         "ItemType": "Knife",
         "Rarity": "Godly",
         "Year": "2022",
-        "Value": "x2 T1 Uncommons",
+        "Value": 125,
         "PriceStatus": "verified"
       },
       "name": "ZombieBat",
@@ -5049,7 +5049,7 @@
         "ItemType": "Knife",
         "Rarity": "Rare",
         "Year": "2017",
-        "Value": "x3 T1 Legendaries",
+        "Value": 13,
         "PriceStatus": "verified"
       },
       "name": "MagmaK",
@@ -6750,7 +6750,7 @@
         "ItemName": "Rainbow",
         "ItemType": "Knife",
         "Rarity": "Rare",
-        "Value": "x4 T1 Uncommons",
+        "Value": 400,
         "PriceStatus": "verified"
       },
       "name": "Rainbow",
@@ -10497,7 +10497,7 @@
         "ItemType": "Knife",
         "Rarity": "Common",
         "PriceStatus": "verified",
-        "Value": "x1 T1 Common"
+        "Value": "x2 T1 Rares"
       },
       "name": "Love",
       "owners": [
@@ -10755,7 +10755,7 @@
         "ItemType": "Knife",
         "Rarity": "Legendary",
         "PriceStatus": "verified",
-        "Value": "x4 T1 Rares"
+        "Value": "x4 T1 Legendaries"
       },
       "name": "PredatorKnife",
       "owners": [
@@ -17358,7 +17358,7 @@
         "ItemType": "Knife",
         "Rarity": "Godly",
         "Season": 1,
-        "Value": "x4 T1 Uncommons",
+        "Value": 400,
         "PriceStatus": "verified"
       },
       "name": "Rainbow_K",
@@ -19505,7 +19505,7 @@
         "ItemType": "Knife",
         "Rarity": "Godly",
         "Season": 1,
-        "Value": "x2 T1 Rares",
+        "Value": 240,
         "PriceStatus": "verified"
       },
       "name": "Waves_K",
@@ -42529,7 +42529,7 @@
         "ItemType": "Knife",
         "Rarity": "Godly",
         "Year": "2020",
-        "Value": "x2 T1 Commons",
+        "Value": 4,
         "PriceStatus": "verified"
       },
       "name": "Peppermint",
@@ -51027,7 +51027,7 @@
         "ItemType": "Knife",
         "Rarity": "Rare",
         "Year": "2022",
-        "Value": "x2 T1 Uncommons",
+        "Value": 85,
         "PriceStatus": "verified"
       },
       "name": "Gingerbread_K_2022",
@@ -51149,7 +51149,7 @@
         "Rarity": "Common",
         "Year": "2025",
         "PriceStatus": "verified",
-        "Value": "x2 T1 Commons"
+        "Value": "x2 T1 Uncommons"
       },
       "name": "Leaves_K_2025",
       "owners": [
@@ -53696,7 +53696,7 @@
         "Rarity": "Legendary",
         "Year": "2025",
         "PriceStatus": "verified",
-        "Value": "x2 T1 Legendaries"
+        "Value": "x3 T1 Legendaries"
       },
       "name": "Aquarium_K_2025",
       "owners": [
@@ -54724,7 +54724,7 @@
         "ItemType": "Knife",
         "Rarity": "Uncommon",
         "Year": "2026",
-        "Value": "x4 T1 Legendaries",
+        "Value": 1160,
         "PriceStatus": "verified"
       },
       "name": "Blossom_K_2026",
@@ -55513,7 +55513,7 @@
         "ItemType": "Knife",
         "Rarity": "Rare",
         "Year": "2023",
-        "Value": "x2 T1 Legendaries",
+        "Value": 7,
         "PriceStatus": "verified"
       },
       "name": "Ghastly_K_2023",
@@ -55754,7 +55754,7 @@
         "Rarity": "Legendary",
         "Season": 1,
         "PriceStatus": "verified",
-        "Value": "x2 T1 Legendaries"
+        "Value": "x3 T1 Legendaries"
       },
       "name": "Palms_K_2024",
       "owners": [
@@ -57165,7 +57165,7 @@
         "Rarity": "Rare",
         "Year": "2025",
         "PriceStatus": "verified",
-        "Value": "x2 T1 Rares"
+        "Value": "x3 T1 Rares"
       },
       "name": "Gingercookie_K_2025",
       "owners": [
@@ -57841,7 +57841,7 @@
         "Rarity": "Uncommon",
         "Year": "2021",
         "PriceStatus": "verified",
-        "Value": "x2 T1 Commons"
+        "Value": 25
       },
       "name": "Snowman_K_2021",
       "owners": [
@@ -57961,7 +57961,7 @@
         "ItemType": "Knife",
         "Rarity": "Uncommon",
         "Year": "2024",
-        "Value": "x4 T1 Legendaries",
+        "Value": "x3 T1 Rares",
         "PriceStatus": "verified"
       },
       "name": "Bones_K_2024",
@@ -59325,7 +59325,7 @@
         "Rarity": "Common",
         "Year": "2025",
         "PriceStatus": "verified",
-        "Value": "x2 T1 Commons"
+        "Value": "x3 T1 Commons"
       },
       "name": "StickersH_K_2025",
       "owners": [
@@ -61062,7 +61062,7 @@
         "ItemType": "Knife",
         "Rarity": "Uncommon",
         "Year": "2026",
-        "Value": 5,
+        "Value": 22,
         "PriceStatus": "verified"
       },
       "name": "Starry_K_2026",
@@ -63190,7 +63190,7 @@
         "ItemType": "Gun",
         "Rarity": "Rare",
         "Year": "2026",
-        "Value": "x3 T1 Rares",
+        "Value": 650,
         "PriceStatus": "verified"
       },
       "name": "Sunset_G_2026",
@@ -63298,7 +63298,7 @@
         "Rarity": "Common",
         "Year": "2025",
         "PriceStatus": "verified",
-        "Value": "x2 T1 Commons"
+        "Value": "x3 T1 Commons"
       },
       "name": "StickersX_G_2025",
       "owners": [
@@ -63942,7 +63942,7 @@
         "Rarity": "Common",
         "Year": "2024",
         "PriceStatus": "verified",
-        "Value": "x2 T1 Commons"
+        "Value": "x3 T1 Commons"
       },
       "name": "Stickers_X_G_2024",
       "owners": [
@@ -64045,7 +64045,7 @@
         "Rarity": "Common",
         "Year": "2025",
         "PriceStatus": "verified",
-        "Value": "x2 T1 Commons"
+        "Value": "x3 T1 Commons"
       },
       "name": "Stickers_G_2025",
       "owners": [
@@ -64183,7 +64183,7 @@
         "Rarity": "Rare",
         "Year": "2025",
         "PriceStatus": "verified",
-        "Value": "x3 T1 Legendaries"
+        "Value": "x1 T1 Legendary"
       },
       "name": "Neon_G_2025",
       "owners": [
@@ -64959,7 +64959,7 @@
         "ItemType": "Gun",
         "Rarity": "Uncommon",
         "Year": "2026",
-        "Value": "x3 T1 Uncommons",
+        "Value": 10,
         "PriceStatus": "verified"
       },
       "name": "Floral_G_2026",
@@ -65346,7 +65346,7 @@
         "ItemType": "Gun",
         "Rarity": "Legendary",
         "Year": "2025",
-        "Value": "x2 T1 Commons",
+        "Value": "x4 T1 Legendaries",
         "PriceStatus": "verified"
       },
       "name": "Frozen_G_2025",
@@ -68909,7 +68909,7 @@
         "ItemType": "Knife",
         "Rarity": "Godly",
         "Year": "2021",
-        "Value": "x1 T1 Legendary",
+        "Value": 33,
         "PriceStatus": "verified"
       },
       "name": "CandleflameChroma",
@@ -69030,7 +69030,7 @@
         "ItemType": "Gun",
         "Rarity": "Rare",
         "Year": "2022",
-        "Value": "x2 T1 Uncommons",
+        "Value": 85,
         "PriceStatus": "verified"
       },
       "name": "Gingerbread_G_2022",
@@ -69150,8 +69150,7 @@
         "ItemType": "Gun",
         "Rarity": "Legendary",
         "Season": 1,
-        "Value": "x4 T1 Legendaries",
-        "PriceStatus": "verified"
+        "PriceStatus": "unresolved_no_price"
       },
       "name": "Chromatic_G_2023",
       "owners": [
@@ -70578,7 +70577,7 @@
         "Rarity": "Legendary",
         "Season": 1,
         "PriceStatus": "verified",
-        "Value": "x2 T1 Legendaries"
+        "Value": "x3 T1 Legendaries"
       },
       "name": "Palms_G_2024",
       "owners": [
@@ -70855,7 +70854,7 @@
         "ItemType": "Gun",
         "Rarity": "Rare",
         "Season": 1,
-        "Value": "x3 T1 Uncommons",
+        "Value": 10,
         "PriceStatus": "verified"
       },
       "name": "Floral_G_2024",
@@ -71199,7 +71198,7 @@
         "Rarity": "Common",
         "Season": 1,
         "PriceStatus": "verified",
-        "Value": "x1 T1 Common"
+        "Value": "x2 T1 Commons"
       },
       "name": "Sandy_G_2024",
       "owners": [
@@ -71660,7 +71659,7 @@
         "ItemType": "Gun",
         "Rarity": "Legendary",
         "PriceStatus": "verified",
-        "Value": "x4 T1 Rares"
+        "Value": "x4 T1 Legendaries"
       },
       "name": "Predator",
       "owners": [
@@ -71972,7 +71971,7 @@
         "ItemType": "Gun",
         "Rarity": "Uncommon",
         "Year": "2018",
-        "Value": "x1 T1 Rare",
+        "Value": 1,
         "PriceStatus": "verified"
       },
       "name": "Holly_G_2018",
@@ -72440,7 +72439,7 @@
         "ItemType": "Gun",
         "Rarity": "Rare",
         "Year": "2019",
-        "Value": "x3 T1 Uncommons",
+        "Value": 1,
         "PriceStatus": "verified"
       },
       "name": "Monster",
@@ -72630,7 +72629,7 @@
         "Rarity": "Legendary",
         "Season": 1,
         "PriceStatus": "verified",
-        "Value": "x3 T1 Rares"
+        "Value": "x4 T1 Rares"
       },
       "name": "Splash_G",
       "owners": [
@@ -73496,7 +73495,7 @@
         "Rarity": "Common",
         "Season": 1,
         "PriceStatus": "verified",
-        "Value": "x1 T1 Common"
+        "Value": "x3 T1 Uncommons"
       },
       "name": "Clown_G",
       "owners": [
@@ -73687,7 +73686,7 @@
         "Rarity": "Uncommon",
         "Year": "2024",
         "PriceStatus": "verified",
-        "Value": "x1 T1 Common"
+        "Value": "x3 T1 Uncommons"
       },
       "name": "Clown_G_2024",
       "owners": [
@@ -79296,7 +79295,7 @@
         "ItemType": "Knife",
         "Rarity": "Rare",
         "Year": "2019",
-        "Value": 1,
+        "Value": 45,
         "PriceStatus": "verified"
       },
       "name": "Aurora_K_2019",
