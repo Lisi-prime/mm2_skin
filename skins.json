@@ -4,9 +4,9 @@
     "generator": "Dynamic_Hub_MM2",
     "clean": true,
     "total": 247,
-    "version": "2.0"
+    "version": "2.1"
   },
-  "updated": 1794183000,
+  "updated": 1794185000,
   "entries": {
     "79401392|11810420546||": {
       "meta": {
@@ -1763,6 +1763,31 @@
                 0
               ]
             }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6125828567",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://6120563948"
+            }
           }
         ],
         "root": {
@@ -1802,7 +1827,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://6120563948"
           }
         }
       }
@@ -2197,7 +2223,9 @@
               1.8300000429153442,
               0.949999988079071,
               0.32499998807907104
-            ]
+            ],
+            "MeshId": "rbxassetid://6600918074",
+            "TextureId": "rbxassetid://82880564389741"
           }
         },
         "nodes": [
@@ -2237,6 +2265,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6600918074",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://82880564389741"
+            }
           }
         ]
       },
@@ -2390,6 +2443,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://11868991644",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://11869075814"
+            }
           }
         ],
         "root": {
@@ -2429,7 +2507,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://11869075814"
           }
         }
       }
@@ -4848,6 +4927,31 @@
                 }
               ]
             }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://4217523241",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://4210044808"
+            }
           }
         ],
         "root": {
@@ -4887,7 +4991,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://4210044808"
           }
         }
       }
@@ -4965,6 +5070,31 @@
               "RoughnessMap": "",
               "MetalnessMap": ""
             }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://135790480817772",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://nil"
+            }
           }
         ],
         "root": {
@@ -5004,7 +5134,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://nil"
           }
         }
       }
@@ -5512,6 +5643,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6600918074",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://114741314080418"
+            }
           }
         ],
         "root": {
@@ -5551,7 +5707,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://114741314080418"
           }
         }
       }
@@ -5587,7 +5744,9 @@
               0.45522749423980713,
               1.3727134466171265,
               2.2193078994750977
-            ]
+            ],
+            "MeshId": "rbxassetid://79527507796407",
+            "TextureId": "rbxassetid://80102752403085"
           }
         },
         "nodes": [
@@ -5627,6 +5786,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://79527507796407",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://80102752403085"
+            }
           }
         ]
       },
@@ -5820,6 +6004,31 @@
                 }
               ]
             }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://12921240966",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://12921241867"
+            }
           }
         ],
         "root": {
@@ -5859,7 +6068,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://12921241867"
           }
         }
       }
@@ -6136,7 +6346,9 @@
               0.5684601068496704,
               1.3816102743148804,
               2.1548171043395996
-            ]
+            ],
+            "MeshId": "rbxassetid://18280804203",
+            "TextureId": "rbxassetid://18280805635"
           }
         },
         "nodes": [
@@ -6176,6 +6388,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://18280804203",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://18280805635"
+            }
           }
         ]
       }
@@ -6379,6 +6616,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6600918074",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://72308464511333"
+            }
           }
         ],
         "root": {
@@ -6418,7 +6680,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://72308464511333"
           }
         }
       }
@@ -7064,6 +7327,31 @@
                 }
               ]
             }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://13916938702",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://13916939964"
+            }
           }
         ],
         "root": {
@@ -7103,7 +7391,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://13916939964"
           }
         }
       }
@@ -7148,7 +7437,8 @@
               0.4099327325820923,
               1.366315245628357,
               1.9085801839828491
-            ]
+            ],
+            "MeshId": "rbxassetid://104658283027428"
           }
         },
         "nodes": [
@@ -7188,6 +7478,30 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://104658283027428",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ]
+            }
           }
         ]
       },
@@ -8102,6 +8416,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6600918074",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://103202994163470"
+            }
           }
         ],
         "root": {
@@ -8141,7 +8480,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://103202994163470"
           }
         }
       }
@@ -9610,6 +9950,31 @@
                 }
               ]
             }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6404140078",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://6413074818"
+            }
           }
         ],
         "root": {
@@ -9649,7 +10014,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://6413074818"
           }
         }
       }
@@ -9685,7 +10051,9 @@
               1.8300000429153442,
               0.949999988079071,
               0.32499998807907104
-            ]
+            ],
+            "MeshId": "rbxassetid://6600918074",
+            "TextureId": "rbxassetid://85849701452510"
           }
         },
         "nodes": [
@@ -9724,6 +10092,31 @@
                 3.7848949432373047e-06,
                 -1
               ]
+            }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6600918074",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://85849701452510"
             }
           }
         ]
@@ -11507,6 +11900,31 @@
                 }
               ]
             }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://77738838473091",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://76246633927299"
+            }
           }
         ],
         "root": {
@@ -11546,7 +11964,8 @@
             "DoubleSided": true,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://76246633927299"
           }
         }
       }
@@ -12442,6 +12861,31 @@
                 0
               ]
             }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6125843704",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://6125843755"
+            }
           }
         ],
         "root": {
@@ -12481,7 +12925,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://6125843755"
           }
         }
       }
@@ -12517,7 +12962,9 @@
               0.5298526287078857,
               3.7059130668640137,
               0.5218400359153748
-            ]
+            ],
+            "MeshId": "rbxassetid://12307707430",
+            "TextureId": "rbxassetid://12307707797"
           }
         },
         "nodes": [
@@ -12557,6 +13004,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://12307707430",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://12307707797"
+            }
           }
         ]
       },
@@ -15608,7 +16080,9 @@
               0.4106239974498749,
               3.0742900371551514,
               1.9553924798965454
-            ]
+            ],
+            "MeshId": "rbxassetid://6124173614",
+            "TextureId": "rbxassetid://6124173821"
           }
         },
         "nodes": [
@@ -15648,6 +16122,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6124173614",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://6124173821"
+            }
           }
         ]
       },
@@ -18952,7 +19451,9 @@
               0.9328943490982056,
               3.7912437915802,
               1.054100513458252
-            ]
+            ],
+            "MeshId": "rbxassetid://86649405964534",
+            "TextureId": "rbxassetid://94763497877100"
           }
         },
         "nodes": [
@@ -18992,6 +19493,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://86649405964534",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://94763497877100"
+            }
           }
         ]
       }
@@ -21100,6 +21626,31 @@
                 }
               ]
             }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://4535643726",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://4535641077"
+            }
           }
         ],
         "root": {
@@ -21139,7 +21690,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://4535641077"
           }
         }
       }
@@ -21631,6 +22183,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://96867436912658",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://103568875118220"
+            }
           }
         ],
         "root": {
@@ -21670,7 +22247,8 @@
             "DoubleSided": true,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://103568875118220"
           }
         }
       }
@@ -25167,6 +25745,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6600918074",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://87079980851460"
+            }
           }
         ],
         "root": {
@@ -25206,7 +25809,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://87079980851460"
           }
         }
       }
@@ -27153,6 +27757,31 @@
                 }
               ]
             }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://18276861801",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://18276866373"
+            }
           }
         ],
         "root": {
@@ -27192,7 +27821,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://18276866373"
           }
         }
       }
@@ -30107,7 +30737,9 @@
               0.6902404427528381,
               1.6429799795150757,
               2.35538387298584
-            ]
+            ],
+            "MeshId": "rbxassetid://115447220952926",
+            "TextureId": "rbxassetid://127881437685243"
           }
         },
         "nodes": [
@@ -30147,6 +30779,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://115447220952926",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://127881437685243"
+            }
           }
         ]
       },
@@ -30234,7 +30891,9 @@
               0.3603898882865906,
               2.990088701248169,
               0.7137512564659119
-            ]
+            ],
+            "MeshId": "rbxassetid://140633396635861",
+            "TextureId": "rbxassetid://77812964601215"
           }
         },
         "nodes": [
@@ -30274,6 +30933,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://140633396635861",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://77812964601215"
+            }
           }
         ]
       }
@@ -30337,6 +31021,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://11158364935",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://11274360089"
+            }
           }
         ],
         "root": {
@@ -30376,7 +31085,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://11274360089"
           }
         }
       }
@@ -31861,6 +32571,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://9702755186",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://10015208201"
+            }
           }
         ],
         "root": {
@@ -31900,7 +32635,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": false,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://10015208201"
           }
         }
       }
@@ -31963,6 +32699,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://12921221200",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://12921231088"
+            }
           }
         ],
         "root": {
@@ -32002,7 +32763,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://12921231088"
           }
         }
       }
@@ -33233,6 +33995,31 @@
                 }
               ]
             }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://11182796403",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://11192090515"
+            }
           }
         ],
         "root": {
@@ -33272,7 +34059,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://11192090515"
           }
         }
       }
@@ -34469,7 +35257,9 @@
               0.25707826018333435,
               3.4484567642211914,
               1.2326297760009766
-            ]
+            ],
+            "MeshId": "rbxassetid://11158775938",
+            "TextureId": "rbxassetid://11158776140"
           }
         },
         "nodes": [
@@ -34508,6 +35298,31 @@
                 0,
                 0
               ]
+            }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://11158775938",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://11158776140"
             }
           }
         ]
@@ -35293,6 +36108,31 @@
                 }
               ]
             }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://5841877975",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://5841879647"
+            }
           }
         ],
         "root": {
@@ -35332,7 +36172,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://5841879647"
           }
         }
       }
@@ -35363,7 +36204,9 @@
               0.397622287273407,
               2.6648693084716797,
               2.3640010356903076
-            ]
+            ],
+            "MeshId": "rbxassetid://109711282082830",
+            "TextureId": "rbxassetid://79010754957272"
           }
         },
         "nodes": [
@@ -35402,6 +36245,31 @@
                 0,
                 0
               ]
+            }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://109711282082830",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://79010754957272"
             }
           }
         ]
@@ -35483,6 +36351,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6600918074",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://102957418708034"
+            }
           }
         ],
         "root": {
@@ -35522,7 +36415,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://102957418708034"
           }
         }
       }
@@ -35569,7 +36463,9 @@
               1.8300000429153442,
               0.949999988079071,
               0.32499998807907104
-            ]
+            ],
+            "MeshId": "rbxassetid://6600918074",
+            "TextureId": "rbxassetid://99890178497200"
           }
         },
         "nodes": [
@@ -35608,6 +36504,31 @@
                 3.7848949432373047e-06,
                 -1
               ]
+            }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6600918074",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://99890178497200"
             }
           }
         ]
@@ -37133,6 +38054,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://108253816085047",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://116621225933096"
+            }
           }
         ],
         "root": {
@@ -37172,7 +38118,8 @@
             "DoubleSided": true,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://116621225933096"
           }
         }
       }
@@ -37933,7 +38880,9 @@
               2.0511465072631836,
               1.217880368232727,
               2.9059181213378906
-            ]
+            ],
+            "MeshId": "rbxassetid://78349467382122",
+            "TextureId": "rbxassetid://79171194928343"
           }
         },
         "nodes": [
@@ -37972,6 +38921,31 @@
                 1,
                 1.3381242752075195e-05
               ]
+            }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://78349467382122",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://79171194928343"
             }
           }
         ]
@@ -38264,7 +39238,8 @@
               0.8810815811157227,
               1.5085505247116089,
               2.2670769691467285
-            ]
+            ],
+            "MeshId": "rbxassetid://96613044791092"
           }
         },
         "nodes": [
@@ -38302,6 +39277,30 @@
                 1,
                 0,
                 0
+              ]
+            }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://96613044791092",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
               ]
             }
           }
@@ -38969,6 +39968,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://11165536294",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://11165715120"
+            }
           }
         ],
         "root": {
@@ -39008,7 +40032,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://11165715120"
           }
         }
       }
@@ -39158,7 +40183,9 @@
               1.8300000429153442,
               0.949999988079071,
               0.32499998807907104
-            ]
+            ],
+            "MeshId": "rbxassetid://6600918074",
+            "TextureId": "rbxassetid://102865389280290"
           }
         },
         "nodes": [
@@ -39198,6 +40225,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6600918074",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://102865389280290"
+            }
           }
         ]
       },
@@ -39249,7 +40301,9 @@
               0.5585839152336121,
               1.3548882007598877,
               2.4995672702789307
-            ]
+            ],
+            "MeshId": "rbxassetid://99836890880541",
+            "TextureId": "rbxassetid://122392330922281"
           }
         },
         "nodes": [
@@ -39289,6 +40343,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://99836890880541",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://122392330922281"
+            }
           }
         ]
       },
@@ -39472,6 +40551,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://4730813852",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://4728494788"
+            }
           }
         ],
         "root": {
@@ -39511,7 +40615,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://4728494788"
           }
         }
       }
@@ -39973,6 +41078,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://5841866437",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://5841868338"
+            }
           }
         ],
         "root": {
@@ -40012,7 +41142,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://5841868338"
           }
         }
       }
@@ -46821,6 +47952,31 @@
                 }
               ]
             }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://8231045240",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://8231046270"
+            }
           }
         ],
         "root": {
@@ -46860,7 +48016,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://8231046270"
           }
         }
       }
@@ -47476,6 +48633,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6600918074",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://123572826899313"
+            }
           }
         ],
         "root": {
@@ -47515,7 +48697,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://123572826899313"
           }
         }
       }
@@ -47790,7 +48973,9 @@
               0.16719697415828705,
               3.4800000190734863,
               0.8619042634963989
-            ]
+            ],
+            "MeshId": "rbxassetid://15020899066",
+            "TextureId": "rbxassetid://15020899218"
           }
         },
         "nodes": [
@@ -47830,6 +49015,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://15020899066",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://15020899218"
+            }
           }
         ]
       },
@@ -48037,6 +49247,31 @@
               "RoughnessMap": "",
               "MetalnessMap": ""
             }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://88250692342609",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://75844398224824"
+            }
           }
         ],
         "root": {
@@ -48076,7 +49311,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://75844398224824"
           }
         }
       }
@@ -48262,6 +49498,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://5355753728",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://5355747943"
+            }
           }
         ],
         "root": {
@@ -48301,7 +49562,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://5355747943"
           }
         }
       }
@@ -48635,6 +49897,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6600918074",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://73839340981831"
+            }
           }
         ],
         "root": {
@@ -48674,7 +49961,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://73839340981831"
           }
         }
       }
@@ -49910,6 +51198,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6085025295",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://6074789360"
+            }
           }
         ],
         "root": {
@@ -49949,7 +51262,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://6074789360"
           }
         }
       }
@@ -53076,6 +54390,31 @@
                 }
               ]
             }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://136619680236977",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://113651973865393"
+            }
           }
         ],
         "root": {
@@ -53115,7 +54454,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://113651973865393"
           }
         }
       }
@@ -53151,7 +54491,8 @@
               0.6996068358421326,
               3.871735095977783,
               1.3675850629806519
-            ]
+            ],
+            "MeshId": "rbxassetid://128484002922643"
           }
         },
         "nodes": [
@@ -53189,6 +54530,30 @@
                 1,
                 0,
                 0
+              ]
+            }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://128484002922643",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
               ]
             }
           }
@@ -53273,7 +54638,9 @@
               0.43670523166656494,
               1.4888286590576172,
               2.149369239807129
-            ]
+            ],
+            "MeshId": "rbxassetid://77235373292363",
+            "TextureId": "rbxassetid://131115493735176"
           }
         },
         "nodes": [
@@ -53313,6 +54680,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://77235373292363",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://131115493735176"
+            }
           }
         ]
       }
@@ -54240,7 +55632,8 @@
               0.672687292098999,
               3.3300957679748535,
               1.6072945594787598
-            ]
+            ],
+            "MeshId": "rbxassetid://139203710266613"
           }
         },
         "nodes": [
@@ -54278,6 +55671,30 @@
                 1,
                 0,
                 0
+              ]
+            }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://139203710266613",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
               ]
             }
           }
@@ -57238,6 +58655,31 @@
                 }
               ]
             }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://2397016406",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://2513526862"
+            }
           }
         ],
         "root": {
@@ -57277,7 +58719,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://2513526862"
           }
         }
       }
@@ -58514,7 +59957,9 @@
               1.8300000429153442,
               0.949999988079071,
               0.32499998807907104
-            ]
+            ],
+            "MeshId": "rbxassetid://6600918074",
+            "TextureId": "rbxassetid://74308400374930"
           }
         },
         "nodes": [
@@ -58553,6 +59998,31 @@
                 3.7848949432373047e-06,
                 -1
               ]
+            }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6600918074",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://74308400374930"
             }
           }
         ]
@@ -58924,6 +60394,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6600918074",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://105937622090347"
+            }
           }
         ],
         "root": {
@@ -58963,7 +60458,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://105937622090347"
           }
         }
       }
@@ -61888,6 +63384,31 @@
                 }
               ]
             }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://82044527712515",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://nil"
+            }
           }
         ],
         "root": {
@@ -61927,7 +63448,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://nil"
           }
         }
       }
@@ -61991,6 +63513,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://4730813852",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://4728487789"
+            }
           }
         ],
         "root": {
@@ -62030,7 +63577,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://4728487789"
           }
         }
       }
@@ -63111,6 +64659,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://73266355643345",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://103489229144925"
+            }
           }
         ],
         "root": {
@@ -63150,7 +64723,8 @@
             "DoubleSided": true,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://103489229144925"
           }
         }
       }
@@ -63536,7 +65110,9 @@
               0.5134580731391907,
               2.8964831829071045,
               2.6599998474121094
-            ]
+            ],
+            "MeshId": "rbxassetid://8293463844",
+            "TextureId": "rbxassetid://8293464070"
           }
         },
         "nodes": [
@@ -63576,6 +65152,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://8293463844",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://8293464070"
+            }
           }
         ]
       },
@@ -65015,6 +66616,31 @@
                 }
               ]
             }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://11238166013",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://11238176757"
+            }
           }
         ],
         "root": {
@@ -65054,7 +66680,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://11238176757"
           }
         }
       }
@@ -65226,6 +66853,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6600918074",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://139997450438464"
+            }
           }
         ],
         "root": {
@@ -65265,7 +66917,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://139997450438464"
           }
         }
       }
@@ -65664,6 +67317,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6600918074",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://138251429150159"
+            }
           }
         ],
         "root": {
@@ -65703,7 +67381,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://138251429150159"
           }
         }
       }
@@ -66870,6 +68549,31 @@
             "class": "WeldConstraint",
             "name": "WeldConstraint",
             "path": "Scope/WeldConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://15374602183",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://15409041564"
+            }
           }
         ],
         "root": {
@@ -66909,7 +68613,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://15409041564"
           }
         }
       }
@@ -68603,6 +70308,31 @@
                 }
               ]
             }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://4217554208",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://4210531490"
+            }
           }
         ],
         "root": {
@@ -68642,7 +70372,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://4210531490"
           }
         }
       }
@@ -68989,6 +70720,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6600918074",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://74173043698427"
+            }
           }
         ],
         "root": {
@@ -69028,7 +70784,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://74173043698427"
           }
         }
       }
@@ -69479,7 +71236,9 @@
               0.35499998927116394,
               2.9997000694274902,
               0.7680000066757202
-            ]
+            ],
+            "MeshId": "rbxassetid://6769675268",
+            "TextureId": "rbxassetid://122714265904391"
           }
         },
         "nodes": [
@@ -69518,6 +71277,31 @@
                 0,
                 0
               ]
+            }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6769675268",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://122714265904391"
             }
           }
         ]
@@ -70371,6 +72155,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://4210029922",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://4210038158"
+            }
           }
         ],
         "root": {
@@ -70410,7 +72219,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://4210038158"
           }
         }
       }
@@ -71391,6 +73201,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6600918074",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://100185145262613"
+            }
           }
         ],
         "root": {
@@ -71430,7 +73265,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://100185145262613"
           }
         }
       }
@@ -74339,6 +76175,31 @@
                 }
               ]
             }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://5841895234",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://5842343736"
+            }
           }
         ],
         "root": {
@@ -74378,7 +76239,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://5842343736"
           }
         }
       }
@@ -75109,6 +76971,31 @@
                 }
               ]
             }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://9702732853",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://10015130416"
+            }
           }
         ],
         "root": {
@@ -75148,7 +77035,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": false,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://10015130416"
           }
         }
       }
@@ -76447,7 +78335,9 @@
               0.804750919342041,
               3.7576560974121094,
               3.5896620750427246
-            ]
+            ],
+            "MeshId": "rbxassetid://104705566620551",
+            "TextureId": "rbxassetid://139925600029995"
           }
         },
         "nodes": [
@@ -76486,6 +78376,31 @@
                 0,
                 0
               ]
+            }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://104705566620551",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://139925600029995"
             }
           }
         ]
@@ -76788,6 +78703,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6600918074",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://105991246402157"
+            }
           }
         ],
         "root": {
@@ -76827,7 +78767,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://105991246402157"
           }
         }
       }
@@ -76858,7 +78799,9 @@
               1.8300000429153442,
               0.949999988079071,
               0.32499998807907104
-            ]
+            ],
+            "MeshId": "rbxassetid://6600918074",
+            "TextureId": "rbxassetid://82020016283275"
           }
         },
         "nodes": [
@@ -76898,6 +78841,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6600918074",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://82020016283275"
+            }
           }
         ]
       },
@@ -76974,6 +78942,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6600918074",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://108504597564281"
+            }
           }
         ],
         "root": {
@@ -77013,7 +79006,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://108504597564281"
           }
         }
       }
@@ -78087,6 +80081,31 @@
                 }
               ]
             }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://4528435571",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://4528435630"
+            }
           }
         ],
         "root": {
@@ -78126,7 +80145,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://4528435630"
           }
         }
       }
@@ -79002,6 +81022,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6600918074",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://118189428777054"
+            }
           }
         ],
         "root": {
@@ -79041,7 +81086,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://118189428777054"
           }
         }
       }
@@ -79562,7 +81608,8 @@
               0.3693559169769287,
               3.5047643184661865,
               1.259381890296936
-            ]
+            ],
+            "MeshId": "rbxassetid://88652423673547"
           }
         },
         "nodes": [
@@ -79600,6 +81647,30 @@
                 1,
                 0,
                 0
+              ]
+            }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://88652423673547",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
               ]
             }
           }
@@ -81136,6 +83207,31 @@
                 }
               ]
             }
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://4662600017",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://4751538400"
+            }
           }
         ],
         "root": {
@@ -81175,7 +83271,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://4751538400"
           }
         }
       }
@@ -81349,6 +83446,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6600918074",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://124763121225655"
+            }
           }
         ],
         "root": {
@@ -81388,7 +83510,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://124763121225655"
           }
         }
       }
@@ -81745,7 +83868,9 @@
               1.8300000429153442,
               0.949999988079071,
               0.32499998807907104
-            ]
+            ],
+            "MeshId": "rbxassetid://6600918074",
+            "TextureId": "rbxassetid://88277879999522"
           }
         },
         "nodes": [
@@ -81785,6 +83910,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6600918074",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://88277879999522"
+            }
           }
         ]
       },
@@ -81831,7 +83981,9 @@
               0.2255622148513794,
               3.568437337875366,
               0.9524789452552795
-            ]
+            ],
+            "MeshId": "rbxassetid://112444333460928",
+            "TextureId": "rbxassetid://131787177447081"
           }
         },
         "nodes": [
@@ -81871,6 +84023,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://112444333460928",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://131787177447081"
+            }
           }
         ]
       },
@@ -82212,6 +84389,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://7775027413",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://7775245551"
+            }
           }
         ],
         "root": {
@@ -82251,7 +84453,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://7775245551"
           }
         }
       }
@@ -86578,6 +88781,31 @@
             "class": "RigidConstraint",
             "name": "RigidConstraint",
             "path": "RigidConstraint"
+          },
+          {
+            "class": "SpecialMesh",
+            "name": "Mesh",
+            "path": "Mesh",
+            "props": {
+              "MeshType": "Enum.MeshType.FileMesh",
+              "MeshId": "rbxassetid://6600918074",
+              "Scale": [
+                1,
+                1,
+                1
+              ],
+              "Offset": [
+                0,
+                0,
+                0
+              ],
+              "VertexColor": [
+                1,
+                1,
+                1
+              ],
+              "TextureId": "rbxassetid://78638638337831"
+            }
           }
         ],
         "root": {
@@ -86617,7 +88845,8 @@
             "DoubleSided": false,
             "Massless": true,
             "CastShadow": true,
-            "MaterialVariant": ""
+            "MaterialVariant": "",
+            "TextureId": "rbxassetid://78638638337831"
           }
         }
       }
