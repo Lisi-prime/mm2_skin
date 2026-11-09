@@ -4176,7 +4176,19 @@ function Hub:ApplySkinSoundsAndAnims(rec, tool)
     local normalGunSound = nil
     local customReload = nil
 
-    -- Gun sound will preserve authentic MM2 gunshot (rbxassetid://15666290706) unless explicit sound node dumped
+    -- Sci-Fi Raygun authentic custom laser blast sound
+    local rName = (rec.name or ""):lower()
+    local metaName = (rec.meta and rec.meta.ItemName and rec.meta.ItemName:lower()) or ""
+    if rName:find("raygun") or rName:find("alien") or metaName:find("raygun") or metaName:find("ray gun") then
+        local laserSound = {
+            Name = "Gunshot",
+            SoundId = "rbxassetid://131179973", -- Authentic SBAudio Ray Gun shoot sound
+            Volume = 1,
+            PlaybackSpeed = 1
+        }
+        table.insert(customSounds, laserSound)
+        altGunSound = laserSound
+    end
 
     for _, n in ipairs(allNodes) do
         if n.class == "Sound" and n.props and n.props.SoundId then
