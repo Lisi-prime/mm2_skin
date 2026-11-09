@@ -1,8 +1,8 @@
 {
   "place": 142823291,
   "meta": {
-    "last_updated": 1794255604,
-    "total": 206
+    "last_updated": 1794258072,
+    "total": 205
   },
   "entries": {
     "79401392|11810420546||": {
@@ -16233,13 +16233,13 @@
     },
     "12921221200|12921231088||": {
       "meta": {
-        "ItemName": "Rainbow Gun",
+        "ItemName": "Rainbow",
         "ItemType": "Gun",
-        "Rarity": "Godly",
+        "Rarity": "Rare",
         "Value": 405,
-        "ItemID": 12966354606,
+        "ItemID": 3183640145,
         "Season": 1,
-        "Image": "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=12966354606"
+        "Image": "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=3183640145"
       },
       "kind": "Gun",
       "name": "Rainbow Gun",
@@ -16488,9 +16488,9 @@
         "ItemType": "Knife",
         "Rarity": "Godly",
         "Value": 15,
-        "ItemID": 3183597816,
+        "ItemID": 3183598040,
         "Season": 1,
-        "Image": "rbxassetid://3183657875"
+        "Image": "rbxassetid://3183657748"
       },
       "kind": "Knife",
       "name": "Gemstone",
@@ -20147,13 +20147,12 @@
       "meta": {
         "ItemName": "Luger",
         "ItemType": "Gun",
-        "Value": 18,
-        "Rarity": "Godly",
-        "Image": "rbxassetid://3187399148",
-        "ItemID": 198042673
+        "Rarity": "Chroma",
+        "Image": "rbxassetid://3187399258",
+        "ItemID": 3187395551
       },
       "kind": "Gun",
-      "name": "Luger",
+      "name": "LugerChroma",
       "display": {
         "root": {
           "class": "Part",
@@ -22527,9 +22526,9 @@
         "ItemType": "Gun",
         "Rarity": "Godly",
         "Value": 33,
-        "ItemID": 4751501078,
+        "ItemID": 4749071819,
         "Season": 1,
-        "Image": "http://www.roblox.com/asset/?id=4751507011"
+        "Image": "http://www.roblox.com/asset/?id=4751387674"
       },
       "kind": "Gun",
       "name": "Darkbringer",
@@ -24909,7 +24908,7 @@
         "Year": "2025",
         "ItemID": 129480661108374,
         "Event": "Summer",
-        "Image": "rbxthumb://type=Asset&w=150&h=150&id=124766755976937"
+        "Image": "rbxthumb://type=Asset&w=150&h=150&id=129480661108374"
       },
       "kind": "Gun",
       "name": "Sunrise",
@@ -25529,9 +25528,9 @@
         "ItemType": "Knife",
         "Rarity": "Godly",
         "Value": 15,
-        "ItemID": 3183597816,
+        "ItemID": 3183598040,
         "Season": 1,
-        "Image": "rbxassetid://3183657875"
+        "Image": "rbxassetid://3183657748"
       },
       "kind": "Knife",
       "name": "Gemstone",
@@ -27669,7 +27668,7 @@
         "ItemName": "Sweet",
         "ItemType": "Knife",
         "Event": "Valentines",
-        "Image": "rbxassetid://90923771881248",
+        "Image": "rbxthumb://type=Asset&w=150&h=150&id=126937716954396",
         "ItemID": 126937716954396,
         "Value": 150,
         "Rarity": "Godly",
@@ -30201,7 +30200,7 @@
         "Year": "2025",
         "ItemID": 139431943195380,
         "Event": "Halloween",
-        "Image": "rbxthumb://type=Asset&w=150&h=150&id=83259634072260"
+        "Image": "rbxthumb://type=Asset&w=150&h=150&id=139431943195380"
       },
       "kind": "Gun",
       "name": "Raygun",
@@ -33846,7 +33845,7 @@
         "Year": "2026",
         "ItemID": 113946366917108,
         "Event": "Halloween",
-        "Image": "rbxassetid://78843406455139"
+        "Image": "rbxthumb://type=Asset&w=150&h=150&id=113946366917108"
       },
       "kind": "Knife",
       "fx": {
@@ -34175,9 +34174,9 @@
         "ItemType": "Gun",
         "Rarity": "Godly",
         "Value": 33,
-        "ItemID": 4751501078,
+        "ItemID": 4749071819,
         "Season": 1,
-        "Image": "http://www.roblox.com/asset/?id=4751507011"
+        "Image": "http://www.roblox.com/asset/?id=4751387674"
       },
       "kind": "Gun",
       "name": "Darkbringer",
@@ -41670,11 +41669,11 @@
     "11238166013|11254938322|11254962088|": {
       "meta": {
         "Rarity": "Godly",
-        "Image": "http://www.roblox.com/asset/?id=11255021976",
+        "Image": "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11254879631",
         "ItemType": "Knife",
         "Year": "2022",
         "Value": 33,
-        "ItemID": 11254975176,
+        "ItemID": 11262771067,
         "Event": "Halloween",
         "ItemName": "Elderwood Blade"
       },
@@ -42861,9 +42860,9 @@
         "ItemName": "Watergun",
         "ItemType": "Gun",
         "Rarity": "Godly",
-        "ItemID": 18351401528,
+        "ItemID": 18351388416,
         "Season": 1,
-        "Image": "rbxassetid://18351465514"
+        "Image": "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=18351388416"
       },
       "kind": "Gun",
       "name": "Watergun",
@@ -43468,11 +43467,11 @@
     "11238166013|11238176757||": {
       "meta": {
         "Rarity": "Godly",
-        "Image": "http://www.roblox.com/asset/?id=11255021976",
+        "Image": "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11254879631",
         "ItemType": "Knife",
         "Year": "2022",
         "Value": 33,
-        "ItemID": 11254975176,
+        "ItemID": 11262771067,
         "Event": "Halloween",
         "ItemName": "Elderwood Blade"
       },
@@ -47030,8 +47029,8 @@
         "ItemType": "Knife",
         "Value": 13,
         "Rarity": "Godly",
-        "Image": "rbxassetid://3187397317",
-        "ItemID": 3187390667
+        "Image": "rbxassetid://3175017717",
+        "ItemID": 196750305
       },
       "kind": "Knife",
       "name": "Deathshard",
@@ -50765,7 +50764,7 @@
         "Year": "2026",
         "ItemID": 72199828838672,
         "Event": "Halloween",
-        "Image": "rbxassetid://85510985265018"
+        "Image": "rbxthumb://type=Asset&w=150&h=150&id=72199828838672"
       },
       "kind": "Knife",
       "fx": {
@@ -54928,7 +54927,7 @@
         "Year": "2026",
         "ItemID": 109700223945658,
         "Event": "Halloween",
-        "Image": "rbxassetid://116169547934994"
+        "Image": "rbxthumb://type=Asset&w=150&h=150&id=109700223945658"
       },
       "kind": "Gun",
       "name": "Emberbow",
@@ -57710,109 +57709,6 @@
             }
           }
         ]
-      }
-    },
-    "95356090|||": {
-      "name": "LugerChroma",
-      "display": {
-        "root": {
-          "name": "GunDisplay",
-          "tags": [
-            "WeaponDisplay"
-          ],
-          "class": "Part",
-          "full": "Workspace.WeaponDisplays.GunDisplay",
-          "props": {
-            "Transparency": 0,
-            "Anchored": false,
-            "CanCollide": false,
-            "Color": [
-              0,
-              0.5607843399047852,
-              0.6117647290229797
-            ],
-            "Massless": true,
-            "Material": "Enum.Material.Plastic",
-            "Size": [
-              0.510000467300415,
-              1.1800024509429932,
-              1.3499970436096191
-            ]
-          }
-        },
-        "nodes": [
-          {
-            "class": "SpecialMesh",
-            "path": "Mesh",
-            "name": "Mesh",
-            "props": {
-              "Offset": [
-                0,
-                0,
-                0
-              ],
-              "VertexColor": [
-                1,
-                1,
-                1
-              ],
-              "MeshType": "Enum.MeshType.FileMesh",
-              "Scale": [
-                1.7999999523162842,
-                1.7999999523162842,
-                1.7999999523162842
-              ],
-              "MeshId": "http://www.roblox.com/asset/?id=95356090",
-              "TextureId": ""
-            }
-          },
-          {
-            "class": "Attachment",
-            "path": "CustomAttachment",
-            "name": "CustomAttachment",
-            "props": {
-              "Visible": false,
-              "CFrame": [
-                0.1500006914138794,
-                0.03835076093673706,
-                0.3332120478153229,
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                -1,
-                0
-              ],
-              "SecondaryAxis": [
-                0,
-                0,
-                -1
-              ],
-              "Axis": [
-                1,
-                0,
-                0
-              ]
-            }
-          },
-          {
-            "class": "RigidConstraint",
-            "name": "RigidConstraint",
-            "path": "RigidConstraint"
-          }
-        ]
-      },
-      "kind": "Gun",
-      "fx": [],
-      "meta": {
-        "ItemName": "Luger",
-        "ItemType": "Gun",
-        "Rarity": "Godly",
-        "Image": "rbxassetid://3187399258",
-        "ItemID": 3187395551
       }
     },
     "6600901997|125701297884016||": {
@@ -61561,7 +61457,7 @@
         "ItemName": "Beachy",
         "ItemType": "Knife",
         "Rarity": "Godly",
-        "Image": "rbxassetid://111734394956319",
+        "Image": "rbxthumb://type=Asset&w=150&h=150&id=120888453565511",
         "ItemID": 120888453565511,
         "Year": "2026",
         "Event": "Summer",
