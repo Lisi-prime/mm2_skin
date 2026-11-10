@@ -6679,11 +6679,9 @@ function Hub:StartMainLoops()
         local root = char and self:GetRoot(char)
         local hum = char and char:FindFirstChildOfClass("Humanoid")
         if not (root and hum and hum.Health > 0) then return end
-        if not self.AutoFarm.IsActive then
-            if not (self.Config.Toggles.WalkFling and flingTargetTouching) then
-                if root.AssemblyAngularVelocity.Magnitude > 25 then
-                    root.AssemblyAngularVelocity = Vector3.zero
-                end
+        if not self.AutoFarm.IsActive and not self.Config.Toggles.WalkFling then
+            if root.AssemblyAngularVelocity.Magnitude > 25 then
+                root.AssemblyAngularVelocity = Vector3.zero
             end
             local vel = root.AssemblyLinearVelocity
             local horizSpeed = Vector2.new(vel.X, vel.Z).Magnitude
@@ -6711,85 +6709,83 @@ function Hub:StartMainLoops()
             end
         end
     end)
+
+    -- Walk Fling (Argon 4 logic: CustomPhysicalProperties max density + HRP collision filter)
     self.Services.RunService.Stepped:Connect(function()
         local lp = self.Services.Players.LocalPlayer
         local char = lp and lp.Character
-        local root = char and self:GetRoot(char)
+        local myHrp = char and (char:FindFirstChild("HumanoidRootPart") or self:GetRoot(char))
         local hum = char and char:FindFirstChildOfClass("Humanoid")
 
-        -- AntiFling: Always walk through other players
-        if self.Config.Toggles.AntiFling then
-            for _, p in ipairs(self.Services.Players:GetPlayers()) do
-                if p ~= lp and p.Character then
-                    for _, part in ipairs(p.Character:GetDescendants()) do
-                        if part:IsA("BasePart") and part.CanCollide then
-                            part.CanCollide = false
-                        end
-                    end
-                end
-            end
-        end
-
-        -- Walk Fling: Stable skid-fling without launching yourself
         if self.Config.Toggles.WalkFling then
-            if not (root and hum and hum.Health > 0) then
-                flingTargetTouching = false
-                return
+            if myHrp then
+                myHrp.CustomPhysicalProperties = PhysicalProperties.new(100, 0, 0, 0, 0)
             end
-            hum.PlatformStand = false
-            hum:SetStateEnabled(Enum.HumanoidStateType.FallingDown, false)
-            hum:SetStateEnabled(Enum.HumanoidStateType.Ragdoll, false)
-            hum:SetStateEnabled(Enum.HumanoidStateType.GettingUp, false)
-            local myPos = root.Position
-            local touchingRoot = nil
-            for _, other in ipairs(self.Services.Players:GetPlayers()) do
-                if other ~= lp and other.Character then
-                    local oChar = other.Character
-                    local oRoot = self:GetRoot(oChar) or oChar:FindFirstChild("HumanoidRootPart") or oChar:FindFirstChild("Torso")
-                    local oHum = oChar:FindFirstChildOfClass("Humanoid")
-                    if oRoot and oHum and oHum.Health > 0 then
-                        local dist = (oRoot.Position - myPos).Magnitude
-                        if dist <= 4.0 then
-                            touchingRoot = oRoot
-                            break
+            if hum and hum.Health > 0 then
+                hum.PlatformStand = false
+                hum:SetStateEnabled(Enum.HumanoidStateType.FallingDown, false)
+                hum:SetStateEnabled(Enum.HumanoidStateType.Ragdoll, false)
+                hum:SetStateEnabled(Enum.HumanoidStateType.GettingUp, false)
+            end
+
+            for _, player in ipairs(self.Services.Players:GetPlayers()) do
+                if player ~= lp and player.Character then
+                    for _, part in ipairs(player.Character:GetDescendants()) do
+                        if part:IsA("BasePart") then
+                            part.CanCollide = (part.Name == "HumanoidRootPart")
                         end
                     end
                 end
-            end
-            if touchingRoot then
-                flingTargetTouching = true
-                local oldCF = root.CFrame
-                root.AssemblyLinearVelocity = Vector3.new(0, 5000, 0)
-                root.AssemblyAngularVelocity = Vector3.new(0, 5000, 0)
-                task.defer(function()
-                    if root and root.Parent then
-                        root.AssemblyLinearVelocity = Vector3.zero
-                        root.AssemblyAngularVelocity = Vector3.zero
-                        root.CFrame = oldCF
-                    end
-                end)
-            else
-                flingTargetTouching = false
-                root.AssemblyAngularVelocity = Vector3.zero
             end
         else
-            if flingTargetTouching then
-                flingTargetTouching = false
+            if myHrp and myHrp.CustomPhysicalProperties ~= nil then
+                myHrp.CustomPhysicalProperties = nil
+            end
+
+            -- AntiFling: Always walk through other players
+            if self.Config.Toggles.AntiFling then
+                for _, p in ipairs(self.Services.Players:GetPlayers()) do
+                    if p ~= lp and p.Character then
+                        for _, part in ipairs(p.Character:GetDescendants()) do
+                            if part:IsA("BasePart") and part.CanCollide then
+                                part.CanCollide = false
+                            end
+                        end
+                    end
+                end
             end
         end
     end)
-    self.Services.RunService.Heartbeat:Connect(function()
-        if self.Config.Toggles.WalkFling then
-            local lp = self.Services.Players.LocalPlayer
-            local char = lp and lp.Character
-            local root = char and self:GetRoot(char)
-            local hum = char and char:FindFirstChildOfClass("Humanoid")
-            if root and hum and hum.Health > 0 then
-                root.AssemblyAngularVelocity = Vector3.zero
-                local moveDir = hum.MoveDirection
-                local walkSpeed = math.max(hum.WalkSpeed, 16)
-                local curY = math.clamp(root.AssemblyLinearVelocity.Y, -25, 15)
-                root.AssemblyLinearVelocity = Vector3.new(moveDir.X * walkSpeed, curY, moveDir.Z * walkSpeed)
+
+    -- Walk Fling (Argon 4 logic: Heartbeat velocity impulse -> RenderStepped client restore -> Stepped oscillation)
+    local walkFlingMovel = 0.1
+    task.spawn(function()
+        while true do
+            self.Services.RunService.Heartbeat:Wait()
+
+            if self.Config.Toggles.WalkFling then
+                local lp = self.Services.Players.LocalPlayer
+                local char = lp and lp.Character
+                local hrp = char and (char:FindFirstChild("HumanoidRootPart") or self:GetRoot(char))
+
+                if hrp and hrp.Parent then
+                    local oldVel = hrp.AssemblyLinearVelocity
+                    local oldCFrame = hrp.CFrame
+
+                    hrp.AssemblyLinearVelocity = oldVel * 10000 + Vector3.new(0, 10000, 0)
+
+                    self.Services.RunService.RenderStepped:Wait()
+                    if hrp and hrp.Parent then
+                        hrp.AssemblyLinearVelocity = oldVel
+                        hrp.CFrame = oldCFrame
+                    end
+
+                    self.Services.RunService.Stepped:Wait()
+                    if hrp and hrp.Parent then
+                        hrp.AssemblyLinearVelocity = oldVel + Vector3.new(0, walkFlingMovel, 0)
+                        walkFlingMovel = -walkFlingMovel
+                    end
+                end
             end
         end
     end)
