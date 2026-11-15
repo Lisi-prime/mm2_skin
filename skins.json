@@ -81224,17 +81224,17 @@
               "Visible": false,
               "CFrame": [
                 0,
-                0,
-                0,
+                -0.35426145792007446,
+                0.1592557430267334,
                 1,
                 0,
                 0,
                 0,
-                1,
+                0.6427633166313171,
+                0.7660649418830872,
                 0,
-                0,
-                0,
-                1
+                -0.7660649418830872,
+                0.6427633166313171
               ],
               "SecondaryAxis": [
                 0,
@@ -82430,7 +82430,7 @@
             "name": "SurfaceAppearance",
             "path": "SurfaceAppearance",
             "props": {
-              "AlphaMode": "Enum.AlphaMode.Transparency",
+              "AlphaMode": "Enum.AlphaMode.Overlay",
               "ColorMap": "rbxassetid://139925600029995",
               "MetalnessMap": "",
               "NormalMap": "",
