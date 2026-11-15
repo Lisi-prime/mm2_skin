@@ -62294,7 +62294,9 @@
       },
       "meta": {
         "PriceStatus": "unresolved_no_price",
-        "Image": "rbxthumb://type=Asset&w=150&h=150&id=99160839686845"
+        "Image": "rbxthumb://type=Asset&w=150&h=150&id=99160839686845",
+        "ItemName": "Gingercookie",
+        "ItemType": "Gun"
       }
     },
     "6600918074|114741314080418||": {
@@ -81222,17 +81224,17 @@
               "Visible": false,
               "CFrame": [
                 0,
-                -0.35426145792007446,
-                0.1592557430267334,
+                0,
+                0,
                 1,
                 0,
                 0,
                 0,
-                0.6427633166313171,
-                0.7660649418830872,
+                1,
                 0,
-                -0.7660649418830872,
-                0.6427633166313171
+                0,
+                0,
+                1
               ],
               "SecondaryAxis": [
                 0,
@@ -82428,7 +82430,7 @@
             "name": "SurfaceAppearance",
             "path": "SurfaceAppearance",
             "props": {
-              "AlphaMode": "Enum.AlphaMode.Overlay",
+              "AlphaMode": "Enum.AlphaMode.Transparency",
               "ColorMap": "rbxassetid://139925600029995",
               "MetalnessMap": "",
               "NormalMap": "",
